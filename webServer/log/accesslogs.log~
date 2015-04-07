@@ -1,0 +1,15 @@
+
+Server got Accessed on Wed Mar 25 13:48:03 2015
+ Request was POST POST /cgi-bin/post.htm HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:36.0) Gecko/20100101 Firefox/36.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://localhost:8000/cgi-bin/post.htm
+Cookie: __ar_v4=S4BPDI4QWNB57PEKEZSLIP%3A20150217%3A5%7C4IDGVTPEAFC4TM2QKYNQ53%3A20150217%3A5%7C7PDDPNC45NALHHJ7UTXOTF%3A20150217%3A5; ajs_user_id=null; ajs_group_id=null; ajs_anonymous_id=%2211807e7a-48d9-4f3c-a9b9-1c83f39ef78b%22; _ga=GA1.1.2034270595.1424037646; optimizelySegments=%7B%22695401874%22%3A%22ff%22%2C%22701141723%22%3A%22false%22%2C%22700221870%22%3A%22direct%22%7D; optimizelyEndUserId=oeu1424037645763r0.823227719880215; optimizelyBuckets=%7B%7D; __qca=P0-818215640-1424037646580; __utma=111872281.2034270595.1424037646.1426374343.1426492590.8; __utmz=111872281.1426089135.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)
+Connection: keep-alive
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 32
+
+fname=Dagim_Getachew&salary=6000
