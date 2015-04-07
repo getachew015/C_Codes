@@ -1,1112 +1,0 @@
-Script started on Sat 18 Oct 2014 10:16:15 AM CDT
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ script test.o[8Pclear./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : 
-File name has to be Entered !
-Usage: file.txt or /home/documents/file.txt
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter a file name to write/save the sorted File to : mozila
-File firefox.sh has been sorted and saved with the name mozila in directory: /home/dagim/Inet 3101/Pro-3 
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter file name to copy the sorted file to : 
-Cannot open : No such file or directory at ./perlSort.pl line 15, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter file name to copy the sorted file to : mozilaperl^[[D^[[D                  mozila_perl
-The File is Sorted Enter 1 to view or any number to Escape
-1
-break
-case "$1" in
-case $moz_debugger in
-case `basename $moz_debugger` in
-debugger="valgrind"
-debugger=$moz_debugger
-debugger=`which $debugger`
-done
-echo
-echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-echo "-a requires an argument"
-echo "-d requires an argument"
-echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-echo "Invalid debugger"
-else
-esac
-exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exit 0
-exit 1
-export MOZ_APP_LAUNCHER
-gdb)
-if [ ! -x $debugger ] ; then
-if [ "${moz_debugger_args}" != "" ] ; then
-if [ "${moz_debugger}" != "" ]; then
-if [ $moz_debug -eq 1 ] ; then
-if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-MOZ_APP_LAUNCHER=`which $0`
-MOZ_APP_NAME=firefox
-moz_debug=0
-moz_debug=1
-moz_debugger="gdb"
-moz_debugger=$2;
-moz_debugger_args=""
-moz_debugger_args=$2;
-MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-MOZ_LIBDIR=/usr/lib/firefox
-MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-MOZ_PROFILEDIR=.mozilla/firefox
-shift
-shift 2
-usage
-usage () {
-while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-while [ $# -gt 0 ]; do
-You have Exited Perl Sort Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter a word to search for : 
-Cannot open : No such file or directory at ./perlSearch.pl line 12, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : fire    /home/dagim/test.txt
-Enter a word to search for : m Moz_
-Cannot open /home/dagim/test.txt: No such file or directory at ./perlSearch.pl line 12, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: ^[[A    3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : /home/dagim/tes st    file.txt
-Enter a word to search for : Moz_
-	Word Moz_ was found on line 36    >>>>	    case `basename $moz_debugger` in
-	Word Moz_ was found on line 37    >>>>	    case $moz_debugger in
-	Word Moz_ was found on line 40    >>>>	            debugger=$moz_debugger
-	Word Moz_ was found on line 48    >>>>	        echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-	Word Moz_ was found on line 53    >>>>	            echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-	Word Moz_ was found on line 61    >>>>	            exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 62    >>>>	            exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 63    >>>>	    exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 70    >>>>	export MOZ_APP_LAUNCHER
-	Word Moz_ was found on line 81    >>>>	    if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-	Word Moz_ was found on line 82    >>>>	if [ $moz_debug -eq 1 ] ; then
-	Word Moz_ was found on line 83    >>>>	            if [ "${moz_debugger_args}" != "" ] ; then
-	Word Moz_ was found on line 84    >>>>	            if [ "${moz_debugger}" != "" ]; then
-	Word Moz_ was found on line 89    >>>>	        MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 90    >>>>	MOZ_APP_LAUNCHER=`which $0`
-	Word Moz_ was found on line 91    >>>>	MOZ_APP_NAME=firefox
-	Word Moz_ was found on line 92    >>>>	moz_debug=0
-	Word Moz_ was found on line 93    >>>>	            moz_debug=1
-	Word Moz_ was found on line 94    >>>>	            moz_debugger=$2;
-	Word Moz_ was found on line 95    >>>>	moz_debugger_args=""
-	Word Moz_ was found on line 96    >>>>	            moz_debugger_args=$2;
-	Word Moz_ was found on line 97    >>>>	moz_debugger="gdb"
-	Word Moz_ was found on line 98    >>>>	MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 99    >>>>	        MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 100    >>>>	    $MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-	Word Moz_ was found on line 101    >>>>	MOZ_LIBDIR=/usr/lib/firefox
-	Word Moz_ was found on line 102    >>>>	MOZ_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 114    >>>>	while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-You Have Exited Perl Search Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ exit
-exit
-
-Script done on Sat 18 Oct 2014 10:20:25 AM CDT
-on line 96    >>>>	            moz_debugger_args=$2;
-	Word Moz_ was found on line 97    >>>>	moz_debugger="gdb"
-	Word Moz_ was found on line 98    >>>>	MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 99    >>>>	        MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 100    >>>>	    $MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-	Word Moz_ was found on line 101    >>>>	MOZ_LIBDIR=/usr/lib/firefox
-	Word Moz_ was found on line 102    >>>>	MOZ_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 114    >>>>	while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-You Have Exited Perl Search Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ exit
-exit
-Script done, file is test.o
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ cat test.o
-Script started on Sat 18 Oct 2014 10:16:15 AM CDT
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ script test.o[8Pclear./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : 
-File name has to be Entered !
-Usage: file.txt or /home/documents/file.txt
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter a file name to write/save the sorted File to : mozila
-File firefox.sh has been sorted and saved with the name mozila in directory: /home/dagim/Inet 3101/Pro-3 
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter file name to copy the sorted file to : 
-Cannot open : No such file or directory at ./perlSort.pl line 15, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter file name to copy the sorted file to : mozilaperl^[[D^[[D                  mozila_perl
-The File is Sorted Enter 1 to view or any number to Escape
-1
-break
-case "$1" in
-case $moz_debugger in
-case `basename $moz_debugger` in
-debugger="valgrind"
-debugger=$moz_debugger
-debugger=`which $debugger`
-done
-echo
-echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-echo "-a requires an argument"
-echo "-d requires an argument"
-echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-echo "Invalid debugger"
-else
-esac
-exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exit 0
-exit 1
-export MOZ_APP_LAUNCHER
-gdb)
-if [ ! -x $debugger ] ; then
-if [ "${moz_debugger_args}" != "" ] ; then
-if [ "${moz_debugger}" != "" ]; then
-if [ $moz_debug -eq 1 ] ; then
-if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-MOZ_APP_LAUNCHER=`which $0`
-MOZ_APP_NAME=firefox
-moz_debug=0
-moz_debug=1
-moz_debugger="gdb"
-moz_debugger=$2;
-moz_debugger_args=""
-moz_debugger_args=$2;
-MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-MOZ_LIBDIR=/usr/lib/firefox
-MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-MOZ_PROFILEDIR=.mozilla/firefox
-shift
-shift 2
-usage
-usage () {
-while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-while [ $# -gt 0 ]; do
-You have Exited Perl Sort Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter a word to search for : 
-Cannot open : No such file or directory at ./perlSearch.pl line 12, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : fire    /home/dagim/test.txt
-Enter a word to search for : m Moz_
-Cannot open /home/dagim/test.txt: No such file or directory at ./perlSearch.pl line 12, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: ^[[A    3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : /home/dagim/tes st    file.txt
-Enter a word to search for : Moz_
-	Word Moz_ was found on line 36    >>>>	    case `basename $moz_debugger` in
-	Word Moz_ was found on line 37    >>>>	    case $moz_debugger in
-	Word Moz_ was found on line 40    >>>>	            debugger=$moz_debugger
-	Word Moz_ was found on line 48    >>>>	        echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-	Word Moz_ was found on line 53    >>>>	            echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-	Word Moz_ was found on line 61    >>>>	            exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 62    >>>>	            exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 63    >>>>	    exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 70    >>>>	export MOZ_APP_LAUNCHER
-	Word Moz_ was found on line 81    >>>>	    if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-	Word Moz_ was found on line 82    >>>>	if [ $moz_debug -eq 1 ] ; then
-	Word Moz_ was found on line 83    >>>>	            if [ "${moz_debugger_args}" != "" ] ; then
-	Word Moz_ was found on line 84    >>>>	            if [ "${moz_debugger}" != "" ]; then
-	Word Moz_ was found on line 89    >>>>	        MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 90    >>>>	MOZ_APP_LAUNCHER=`which $0`
-	Word Moz_ was found on line 91    >>>>	MOZ_APP_NAME=firefox
-	Word Moz_ was found on line 92    >>>>	moz_debug=0
-	Word Moz_ was found on line 93    >>>>	            moz_debug=1
-	Word Moz_ was found on line 94    >>>>	            moz_debugger=$2;
-	Word Moz_ was found on line 95    >>>>	moz_debugger_args=""
-	Word Moz_ was found on line 96    >>>>	            moz_debugger_args=$2;
-	Word Moz_ was found on line 97    >>>>	moz_debugger="gdb"
-	Word Moz_ was found on line 98    >>>>	MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 99    >>>>	        MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 100    >>>>	    $MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-	Word Moz_ was found on line 101    >>>>	MOZ_LIBDIR=/usr/lib/firefox
-	Word Moz_ was found on line 102    >>>>	MOZ_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 114    >>>>	while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-You Have Exited Perl Search Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ exit
-exit
-
-Script done on Sat 18 Oct 2014 10:20:25 AM CDT
-on line 96    >>>>	            moz_debugger_args=$2;
-	Word Moz_ was found on line 97    >>>>	moz_debugger="gdb"
-	Word Moz_ was found on line 98    >>>>	MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 99    >>>>	        MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 100    >>>>	    $MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-	Word Moz_ was found on line 101    >>>>	MOZ_LIBDIR=/usr/lib/firefox
-	Word Moz_ was found on line 102    >>>>	MOZ_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 114    >>>>	while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-You Have Exited Perl Search Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ exit
-exit
-Script done, file is test.o
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ cat test.o
-Script started on Sat 18 Oct 2014 10:16:15 AM CDT
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ script test.o[8Pclear./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : 
-File name has to be Entered !
-Usage: file.txt or /home/documents/file.txt
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter a file name to write/save the sorted File to : mozila
-File firefox.sh has been sorted and saved with the name mozila in directory: /home/dagim/Inet 3101/Pro-3 
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter file name to copy the sorted file to : 
-Cannot open : No such file or directory at ./perlSort.pl line 15, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter file name to copy the sorted file to : mozilaperl^[[D^[[D                  mozila_perl
-The File is Sorted Enter 1 to view or any number to Escape
-1
-break
-case "$1" in
-case $moz_debugger in
-case `basename $moz_debugger` in
-debugger="valgrind"
-debugger=$moz_debugger
-debugger=`which $debugger`
-done
-echo
-echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-echo "-a requires an argument"
-echo "-d requires an argument"
-echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-echo "Invalid debugger"
-else
-esac
-exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exit 0
-exit 1
-export MOZ_APP_LAUNCHER
-gdb)
-if [ ! -x $debugger ] ; then
-if [ "${moz_debugger_args}" != "" ] ; then
-if [ "${moz_debugger}" != "" ]; then
-if [ $moz_debug -eq 1 ] ; then
-if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-MOZ_APP_LAUNCHER=`which $0`
-MOZ_APP_NAME=firefox
-moz_debug=0
-moz_debug=1
-moz_debugger="gdb"
-moz_debugger=$2;
-moz_debugger_args=""
-moz_debugger_args=$2;
-MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-MOZ_LIBDIR=/usr/lib/firefox
-MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-MOZ_PROFILEDIR=.mozilla/firefox
-shift
-shift 2
-usage
-usage () {
-while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-while [ $# -gt 0 ]; do
-You have Exited P]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ cat test.o[3@scrip[C[C[C[C[C[C[C[C[8Pclear
-[H[2J]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ clearat test.o
-Script started on Sat 18 Oct 2014 10:16:15 AM CDT
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ script test.o[8Pclear./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : 
-File name has to be Entered !
-Usage: file.txt or /home/documents/file.txt
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter a file name to write/save the sorted File to : mozila
-File firefox.sh has been sorted and saved with the name mozila in directory: /home/dagim/Inet 3101/Pro-3 
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter file name to copy the sorted file to : 
-Cannot open : No such file or directory at ./perlSort.pl line 15, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter file name to copy the sorted file to : mozilaperl^[[D^[[D                  mozila_perl
-The File is Sorted Enter 1 to view or any number to Escape
-1
-break
-case "$1" in
-case $moz_debugger in
-case `basename $moz_debugger` in
-debugger="valgrind"
-debugger=$moz_debugger
-debugger=`which $debugger`
-done
-echo
-echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-echo "-a requires an argument"
-echo "-d requires an argument"
-echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-echo "Invalid debugger"
-else
-esac
-exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exit 0
-exit 1
-export MOZ_APP_LAUNCHER
-gdb)
-if [ ! -x $debugger ] ; then
-if [ "${moz_debugger_args}" != "" ] ; then
-if [ "${moz_debugger}" != "" ]; then
-if [ $moz_debug -eq 1 ] ; then
-if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-MOZ_APP_LAUNCHER=`which $0`
-MOZ_APP_NAME=firefox
-moz_debug=0
-moz_debug=1
-moz_debugger="gdb"
-moz_debugger=$2;
-moz_debugger_args=""
-moz_debugger_args=$2;
-MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-MOZ_LIBDIR=/usr/lib/firefox
-MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-MOZ_PROFILEDIR=.mozilla/firefox
-shift
-shift 2
-usage
-usage () {
-while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-while [ $# -gt 0 ]; do
-You have Exited Perl Sort Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter a word to search for : 
-Cannot open : No such file or directory at ./perlSearch.pl line 12, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : fire    /home/dagim/test.txt
-Enter a word to search for : m Moz_
-Cannot open /home/dagim/test.txt: No such file or directory at ./perlSearch.pl line 12, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: ^[[A    3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : /home/dagim/tes st    file.txt
-Enter a word to search for : Moz_
-	Word Moz_ was found on line 36    >>>>	    case `basename $moz_debugger` in
-	Word Moz_ was found on line 37    >>>>	    case $moz_debugger in
-	Word Moz_ was found on line 40    >>>>	            debugger=$moz_debugger
-	Word Moz_ was found on line 48    >>>>	        echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-	Word Moz_ was found on line 53    >>>>	            echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-	Word Moz_ was found on line 61    >>>>	            exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 62    >>>>	            exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 63    >>>>	    exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 70    >>>>	export MOZ_APP_LAUNCHER
-	Word Moz_ was found on line 81    >>>>	    if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-	Word Moz_ was found on line 82    >>>>	if [ $moz_debug -eq 1 ] ; then
-	Word Moz_ was found on line 83    >>>>	            if [ "${moz_debugger_args}" != "" ] ; then
-	Word Moz_ was found on line 84    >>>>	            if [ "${moz_debugger}" != "" ]; then
-	Word Moz_ was found on line 89    >>>>	        MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 90    >>>>	MOZ_APP_LAUNCHER=`which $0`
-	Word Moz_ was found on line 91    >>>>	MOZ_APP_NAME=firefox
-	Word Moz_ was found on line 92    >>>>	moz_debug=0
-	Word Moz_ was found on line 93    >>>>	            moz_debug=1
-	Word Moz_ was found on line 94    >>>>	            moz_debugger=$2;
-	Word Moz_ was found on line 95    >>>>	moz_debugger_args=""
-	Word Moz_ was found on line 96    >>>>	            moz_debugger_args=$2;
-	Word Moz_ was found on line 97    >>>>	moz_debugger="gdb"
-	Word Moz_ was found on line 98    >>>>	MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 99    >>>>	        MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 100    >>>>	    $MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-	Word Moz_ was found on line 101    >>>>	MOZ_LIBDIR=/usr/lib/firefox
-	Word Moz_ was found on line 102    >>>>	MOZ_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 114    >>>>	while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-You Have Exited Perl Search Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ exit
-exit
-
-Script done on Sat 18 Oct 2014 10:20:25 AM CDT
-on line 96    >>>>	            moz_debugger_args=$2;
-	Word Moz_ was found on line 97    >>>>	moz_debugger="gdb"
-	Word Moz_ was found on line 98    >>>>	MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 99    >>>>	        MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 100    >>>>	    $MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-	Word Moz_ was found on line 101    >>>>	MOZ_LIBDIR=/usr/lib/firefox
-	Word Moz_ was found on line 102    >>>>	MOZ_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 114    >>>>	while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-You Have Exited Perl Search Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ exit
-exit
-Script done, file is test.o
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ cat test.o
-Script started on Sat 18 Oct 2014 10:16:15 AM CDT
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ script test.o[8Pclear./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : 
-File name has to be Entered !
-Usage: file.txt or /home/documents/file.txt
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter a file name to write/save the sorted File to : mozila
-File firefox.sh has been sorted and saved with the name mozila in directory: /home/dagim/Inet 3101/Pro-3 
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter file name to copy the sorted file to : 
-Cannot open : No such file or directory at ./perlSort.pl line 15, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter file name to copy the sorted file to : mozilaperl^[[D^[[D                  mozila_perl
-The File is Sorted Enter 1 to view or any number to Escape
-1
-break
-case "$1" in
-case $moz_debugger in
-case `basename $moz_debugger` in
-debugger="valgrind"
-debugger=$moz_debugger
-debugger=`which $debugger`
-done
-echo
-echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-echo "-a requires an argument"
-echo "-d requires an argument"
-echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-echo "Invalid debugger"
-else
-esac
-exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exit 0
-exit 1
-export MOZ_APP_LAUNCHER
-gdb)
-if [ ! -x $debugger ] ; then
-if [ "${moz_debugger_args}" != "" ] ; then
-if [ "${moz_debugger}" != "" ]; then
-if [ $moz_debug -eq 1 ] ; then
-if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-MOZ_APP_LAUNCHER=`which $0`
-MOZ_APP_NAME=firefox
-moz_debug=0
-moz_debug=1
-moz_debugger="gdb"
-moz_debugger=$2;
-moz_debugger_args=""
-moz_debugger_args=$2;
-MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-MOZ_LIBDIR=/usr/lib/firefox
-MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-MOZ_PROFILEDIR=.mozilla/firefox
-shift
-shift 2
-usage
-usage () {
-while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-while [ $# -gt 0 ]; do
-You have Exited Perl Sort Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter a word to search for : 
-Cannot open : No such file or directory at ./perlSearch.pl line 12, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : fire    /home/dagim/test.txt
-Enter a word to search for : m Moz_
-Cannot open /home/dagim/test.txt: No such file or directory at ./perlSearch.pl line 12, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: ^[[A    3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : /home/dagim/tes st    file.txt
-Enter a word to search for : Moz_
-	Word Moz_ was found on line 36    >>>>	    case `basename $moz_debugger` in
-	Word Moz_ was found on line 37    >>>>	    case $moz_debugger in
-	Word Moz_ was found on line 40    >>>>	            debugger=$moz_debugger
-	Word Moz_ was found on line 48    >>>>	        echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-	Word Moz_ was found on line 53    >>>>	            echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-	Word Moz_ was found on line 61    >>>>	            exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 62    >>>>	            exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 63    >>>>	    exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-	Word Moz_ was found on line 70    >>>>	export MOZ_APP_LAUNCHER
-	Word Moz_ was found on line 81    >>>>	    if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-	Word Moz_ was found on line 82    >>>>	if [ $moz_debug -eq 1 ] ; then
-	Word Moz_ was found on line 83    >>>>	            if [ "${moz_debugger_args}" != "" ] ; then
-	Word Moz_ was found on line 84    >>>>	            if [ "${moz_debugger}" != "" ]; then
-	Word Moz_ was found on line 89    >>>>	        MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 90    >>>>	MOZ_APP_LAUNCHER=`which $0`
-	Word Moz_ was found on line 91    >>>>	MOZ_APP_NAME=firefox
-	Word Moz_ was found on line 92    >>>>	moz_debug=0
-	Word Moz_ was found on line 93    >>>>	            moz_debug=1
-	Word Moz_ was found on line 94    >>>>	            moz_debugger=$2;
-	Word Moz_ was found on line 95    >>>>	moz_debugger_args=""
-	Word Moz_ was found on line 96    >>>>	            moz_debugger_args=$2;
-	Word Moz_ was found on line 97    >>>>	moz_debugger="gdb"
-	Word Moz_ was found on line 98    >>>>	MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 99    >>>>	        MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 100    >>>>	    $MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-	Word Moz_ was found on line 101    >>>>	MOZ_LIBDIR=/usr/lib/firefox
-	Word Moz_ was found on line 102    >>>>	MOZ_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 114    >>>>	while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-You Have Exited Perl Search Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ exit
-exit
-
-Script done on Sat 18 Oct 2014 10:20:25 AM CDT
-on line 96    >>>>	            moz_debugger_args=$2;
-	Word Moz_ was found on line 97    >>>>	moz_debugger="gdb"
-	Word Moz_ was found on line 98    >>>>	MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 99    >>>>	        MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-	Word Moz_ was found on line 100    >>>>	    $MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-	Word Moz_ was found on line 101    >>>>	MOZ_LIBDIR=/usr/lib/firefox
-	Word Moz_ was found on line 102    >>>>	MOZ_PROFILEDIR=.mozilla/firefox
-	Word Moz_ was found on line 114    >>>>	while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-You Have Exited Perl Search Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ exit
-exit
-Script done, file is test.o
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ cat test.o
-Script started on Sat 18 Oct 2014 10:16:15 AM CDT
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ script test.o[8Pclear./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : 
-File name has to be Entered !
-Usage: file.txt or /home/documents/file.txt
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter a file name to write/save the sorted File to : mozila
-File firefox.sh has been sorted and saved with the name mozila in directory: /home/dagim/Inet 3101/Pro-3 
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter file name to copy the sorted file to : 
-Cannot open : No such file or directory at ./perlSort.pl line 15, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter file name to copy the sorted file to : mozilaperl^[[D^[[D                  mozila_perl
-The File is Sorted Enter 1 to view or any number to Escape
-1
-break
-case "$1" in
-case $moz_debugger in
-case `basename $moz_debugger` in
-debugger="valgrind"
-debugger=$moz_debugger
-debugger=`which $debugger`
-done
-echo
-echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-echo "-a requires an argument"
-echo "-d requires an argument"
-echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-echo "Invalid debugger"
-else
-esac
-exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exit 0
-exit 1
-export MOZ_APP_LAUNCHER
-gdb)
-if [ ! -x $debugger ] ; then
-if [ "${moz_debugger_args}" != "" ] ; then
-if [ "${moz_debugger}" != "" ]; then
-if [ $moz_debug -eq 1 ] ; then
-if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-MOZ_APP_LAUNCHER=`which $0`
-MOZ_APP_NAME=firefox
-moz_debug=0
-moz_debug=1
-moz_debugger="gdb"
-moz_debugger=$2;
-moz_debugger_args=""
-moz_debugger_args=$2;
-MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-MOZ_LIBDIR=/usr/lib/firefox
-MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-MOZ_PROFILEDIR=.mozilla/firefox
-shift
-shift 2
-usage
-usage () {
-while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-while [ $# -gt 0 ]; do
-You have Exited P]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ cat test.o[3@scrip[C[C[C[C[C[C[C[C[8Pclear
-[H[2J]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ clearat test.o
-Script started on Sat 18 Oct 2014 10:16:15 AM CDT
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ script test.o[8Pclear./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : 
-File name has to be Entered !
-Usage: file.txt or /home/documents/file.txt
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter a file name to write/save the sorted File to : mozila
-File firefox.sh has been sorted and saved with the name mozila in directory: /home/dagim/Inet 3101/Pro-3 
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : 
-Enter file name to copy the sorted file to : 
-Cannot open : No such file or directory at ./perlSort.pl line 15, <STDIN> line 2.
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter file name to copy the sorted file to : mozilaperl^[[D^[[D                  mozila_perl
-The File is Sorted Enter 1 to view or any number to Escape
-1
-break
-case "$1" in
-case $moz_debugger in
-case `basename $moz_debugger` in
-debugger="valgrind"
-debugger=$moz_debugger
-debugger=`which $debugger`
-done
-echo
-echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-echo "-a requires an argument"
-echo "-d requires an argument"
-echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-echo "Invalid debugger"
-else
-esac
-exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exit 0
-exit 1
-export MOZ_APP_LAUNCHER
-gdb)
-if [ ! -x $debugger ] ; then
-if [ "${moz_debugger_args}" != "" ] ; then
-if [ "${moz_debugger}" != "" ]; then
-if [ $moz_debug -eq 1 ] ; then
-if [ -L "$MOZ_AP]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ cat test.o[5Plear
-[H[2J]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ clearat test.o[5Plearat test.o[3@scrip[C[C[C[C[C[C[C[C[8Pclear./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter a file name to write/save the sorted File to : /home/dagim/fired
-File firefox.sh has been sorted and saved with the name /home/dagim/fired in directory: /home/dagim/Inet 3101/Pro-3 
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter a file name to write/save the sorted File to : fireup      /home/dagim/fired
-File firefox.sh has been sorted and saved as /home/dagim/fired 
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 1
-Enter the file name if file exists in current directory or if not full File path : kjkj
-File Not found !
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh[9Pclear
-[H[2J]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ clear./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh[9Pclear
-[H[2J]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ clear./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 4
-]0;dagim@dagim-Satellite-C655D: ~/Inet 3101/Pro-3dagim@dagim-Satellite-C655D:~/Inet 3101/Pro-3$ ./shellSort.sh
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 3
-You are running a Perl Search Script
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter a word to search for : fire    echo
-	Word echo was found on line 12    >>>>	echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-	Word echo was found on line 17    >>>>	echo
-	Word echo was found on line 31    >>>>	echo "-d requires an argument"
-	Word echo was found on line 37    >>>>	echo "-a requires an argument"
-	Word echo was found on line 51    >>>>	echo "Invalid debugger"
-	Word echo was found on line 56    >>>>	echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-You Have Exited Perl Search Script
-Enter Your Menu Selection : 
-Menu : 
-1) Enter 1 to Sort a file with shell script: 
-2) Enter 2 to Sort a file with Perl script: 
-3) Enter 3 to Search for a word in a file with Perl script: 
-4) Enter 4 to Exit: 2
-You are running a Perl Sort Script
-Enter the file name if file exists in current directory or if not full File path : firefox.sh
-Enter file name to write the sorted file to : fireup
-The File is Sorted Enter 1 to view or any number to Escape
-1
-break
-case "$1" in
-case $moz_debugger in
-case `basename $moz_debugger` in
-debugger="valgrind"
-debugger=$moz_debugger
-debugger=`which $debugger`
-done
-echo
-echo "$MOZ_APP_NAME has not been compiled with valgrind support"
-echo "-a requires an argument"
-echo "-d requires an argument"
-echo "Can't find $MOZ_LIBDIR/$MOZ_APP_NAME"
-echo "Invalid debugger"
-else
-esac
-exec $debugger $moz_debugger_args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $debugger $moz_debugger_args --args $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exec $MOZ_LIBDIR/$MOZ_APP_NAME "$@"
-exit 0
-exit 1
-export MOZ_APP_LAUNCHER
-gdb)
-if [ ! -x $debugger ] ; then
-if [ "${moz_debugger_args}" != "" ] ; then
-if [ "${moz_debugger}" != "" ]; then
-if [ $moz_debug -eq 1 ] ; then
-if [ -L "$MOZ_APP_LAUNCHER" ] ; then
-MOZ_APP_LAUNCHER=`readlink -f $MOZ_APP_LAUNCHER`
-MOZ_APP_LAUNCHER=`which $0`
-MOZ_APP_NAME=firefox
-moz_debug=0
-moz_debug=1
-moz_debugger="gdb"
-moz_debugger=$2;
-moz_debugger_args=""
-moz_debugger_args=$2;
-MOZ_DEFAULT_PROFILEDIR=.mozilla/firefox
-MOZ_LIBDIR/$MOZ_APP_NAME -h | sed -e 's,/.*/,,'
-MOZ_LIBDIR=/usr/lib/firefox
-MOZ_LIBDIR=`dirname $MOZ_APP_LAUNCHER`
-MOZ_PROFILEDIR=.mozilla/firefox
-shift
-shift 2
-usage
-usage () {
-while [ ! -x $MOZ_LIBDIR/$MOZ_APP_NAME ] ; do
-while [ $# -gt 0 ]; 
